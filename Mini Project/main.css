@@ -1,0 +1,65 @@
+/*The outermost container or elements-->at top of CSS*/
+body, html{
+    height: 100%;
+    margin: 0;
+    color: rgb(255,255,255, .8)
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #e84610; /*red orange*/
+    padding:15px 25px;
+}
+
+
+.main{
+    height: 100%;/*100% of parent in this case body*/
+}
+
+
+.section{
+    background-color: #0097d3;
+    height: 100%;/*100% of parent in this case main*/
+}
+
+
+/*we wrap the content of section in the new dev (vcenter)
+because when using transformation properties and
+position and top offset, it won't work with two elements
+because it calculates the size of one ellements and cannot
+calculate the size of two elements rogether, that's why
+we need to wrap it into one ellement */
+.vcenter{
+    position: relative;
+    top: 50%;    
+    transform: translateY(-50%);
+}
+
+
+.section-paragraph{
+    font-size: 1em; /*16px*/
+    margin: 25px;
+}
+
+
+.footer{
+    background-color: #4a4a4f;
+    padding: 15px;
+}
+
+
+
+@media (min-width:768px){
+    .column{
+    float: left;
+    }
+    .column-60{
+        width: 60%;
+    }
+    .column-40{
+        width: 40%;
+    }
+}
