@@ -1,3 +1,5 @@
-##
-##Practicing Responsive wed designe and Media Queries
+##Practicing Responsive wed designe
+
+-Media Queries
+-Mobile First Approach
 
