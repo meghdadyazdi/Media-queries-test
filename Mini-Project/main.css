@@ -34,7 +34,7 @@ calculate the size of two elements rogether, that's why
 we need to wrap it into one ellement */
 .vcenter{
     position: relative;
-    top: 50%;    
+    top: 20%;    
     transform: translateY(-50%);
 }
 
@@ -57,9 +57,9 @@ we need to wrap it into one ellement */
     float: left;
     }
     .column-60{
-        width: 60%;
+        width: 70%;
     }
     .column-40{
-        width: 40%;
+        width: 30%;
     }
 }
